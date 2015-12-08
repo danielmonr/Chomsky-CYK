@@ -197,8 +197,12 @@ int main(){
 
 
 	// Introduccion e instrucciones
-	cout << "################################################################################" << endl;
-	cout << " -- Desarrollado por Daniel Monzalvo -- " << " -- 
+	cout << endl << endl;
+	cout << "########################################################################################" << endl;
+	cout << " -- Desarrollado por Daniel Monzalvo -- " << " -- https://github.com/danielmonr/Chomsky-CYK --" << endl;
+	cout << endl << endl;
+	cout << "Instrucciones: " << endl;
+	cout << "Para Introducir un GLC, empiece por la variable inicial S,\nlas producciones deben de ir sin espacios y separadas por |.\nSolo pueden ser validas variables en mayusculas y terminales en minusculas.\nNo ingrese numeros o simbolos.\nPara generar nuevas variables oprima s y la tecla Enter cuando se le pregunte.\nUna vez finalizado ingrese n y presione Enter para convertir su GLC en su forma normal de Chomsky.\nEn pantalla apareceran las dos formas.\nFinalmente ingrese el string que quiere comprobar (sin espacios, ni numeros, ni simmbolos).\nEncaso de que pertenezca aparecera en pantalla verdadero, en caso contrario falso." << endl << endl << endl;
 
 	glc* g = new glc;
 
